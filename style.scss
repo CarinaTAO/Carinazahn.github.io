@@ -442,6 +442,12 @@ $yellow:#fed630;
     display: flex;
     margin-bottom: 20px;
     width: 350px;
+    .map {
+        width: 100%;
+        height: 180px;
+        margin: 15px 0 30px;
+    }
+
     .icon {
         border-radius: 20px;
         background-color: #fafafa;
