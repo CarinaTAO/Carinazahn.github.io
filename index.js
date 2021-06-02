@@ -2,16 +2,16 @@
 
 const navBarItems = document.querySelectorAll('.navbar__item');
 document.querySelectorAll('.navbar__item').forEach(
-function(element) {
-    element.onclick = function(event) {
-        event.preventDefault();
-        let previousNav = document.getElementsByClassName("active-nav");
-        previousNav[0].className = previousNav[0].className.replace (" active-nav", "");
-        this.className += " active-nav";
-        let pageName = this.innerText;
-        changePage(pageName);
-  };
-}
+    function(element) {
+        element.onclick = function(event) {
+            event.preventDefault();
+            let previousNav = document.getElementsByClassName("active-nav");
+            previousNav[0].className = previousNav[0].className.replace (" active-nav", "");
+            this.className += " active-nav";
+            let pageName = this.innerText;
+            changePage(pageName);
+        };
+    }
 );
 
 function changePage(pageName) {
