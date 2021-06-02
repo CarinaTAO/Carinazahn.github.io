@@ -315,6 +315,8 @@ $yellow:#fed630;
 }
 
 .content__bottom {
+
+
     h3 {
         padding-left: 50px;
         padding-top: 30px;
@@ -326,6 +328,7 @@ $yellow:#fed630;
     .skills {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
 
         .skill__img {
             width: 120px;
